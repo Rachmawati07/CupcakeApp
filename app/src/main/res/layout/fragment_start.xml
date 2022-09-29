@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- - Merupakan layout untuk memulai pesanan baru
-     - Yang memuat scrollview, LinearLayout, ImageView, TextView dan Button
+     - Yang memuat ScrollView, LinearLayout, ImageView, TextView dan Button
      - Dan Button ini jika diklik maka akan menuju ke activity yang lain-->
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"

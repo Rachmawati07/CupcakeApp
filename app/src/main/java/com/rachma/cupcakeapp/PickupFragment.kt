@@ -18,7 +18,7 @@ import com.rachma.cupcakeapp.model.OrderViewModel
 class PickupFragment : Fragment() {
 
     // Untuk mendeklarasikan  objek binding instance yang sesuai dengan layout fragment_pickup.xml
-    // Dan properti ini bukan nol antara callback siklus hidup onCreateView() dan onDestroyView(), ketika hierarki tampilan dilampirkan ke fragmen.
+    // Dan properti ini bukan nol antara callback lifecycle onCreateView() dan onDestroyView(), ketika hierarki tampilan dilampirkan ke fragmen.
     private var binding: FragmentPickupBinding? = null
 
     // Menggunakan delegasi properti Kotlin 'by activityViewModels()' dari artefact fragmen-ktx

@@ -4,7 +4,7 @@
      - Pada layout ini terdiri atas ScrollView, RadioGroup, RadioButton, TextView dan Button
      - Pada layout ini akan menampilkan rincian pesanan yang dipilih oleh pengguna yang berupa Quantity, Flavor dan Pickup Date
      - Serta pada TextView Total akan menampilkan harga yang harus dibayarkan
-     - Dan pada button send to another app, jika di klik maka akan menampilkan popup berupa Send Order-->
+     - Dan pada button send to another app, jika di klik maka akan menampilkan popup berupa Send Order -->
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".SummaryFragment">

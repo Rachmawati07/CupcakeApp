@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Locale
 
-// Untuk mendeklarasikan harga untuk satu cupcake */
+// Untuk mendeklarasikan harga untuk satu cupcake
 private const val PRICE_PER_CUPCAKE = 2.00
 
 // Untuk mendeklarasikan biaya tambahan untuk pengambilan pesanan di hari yang sama

@@ -41,7 +41,7 @@ class StartFragment : Fragment() {
         binding?.startFragment = this
     }
 
-    // Untuk memulai pesanan dengan memilih jumlah cupdake yang diinginkan dan navigasikan ke tampilan berikutnya.
+    // Untuk memulai pesanan dengan memilih jumlah cupcake yang diinginkan dan dinavigasikan ke tampilan berikutnya.
     fun orderCupcake(quantity: Int) {
 
         // Untuk memperbarui model tampilan dengan jumlah cupcake yang dipilih oleh pengguna
@@ -52,7 +52,7 @@ class StartFragment : Fragment() {
             sharedViewModel.setFlavor(getString(R.string.vanilla))
         }
 
-        // Untuk menavigasikan ke tujuan berikutnya untuk memilih rasa cupcakes
+        // Untuk menavigasikan ke tujuan berikutnya untuk memilih rasa cupcake
         findNavController().navigate(R.id.action_startFragment_to_flavorFragment)
     }
 

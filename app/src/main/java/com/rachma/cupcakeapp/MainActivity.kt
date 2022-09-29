@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         val navController = navHostFragment.navController
 
         // Untuk menyiapkan bilah tindakan yang akan digunakan dengan NavController
-        // Akan menampilkan judul di panel aplikasi berdasarkan label tujuan,
+        // Akan menampilkan judul di panel aplikasi berdasarkan label tujuan
         // Dan menampilkan tombol Up kapan pun saat tidak berada di tujuan teratas
         setupActionBarWithNavController(navController)
     }
